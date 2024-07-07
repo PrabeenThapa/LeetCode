@@ -9,3 +9,9 @@ class Solution:
             numEmpty = numEmpty % numExchange
 
         return result
+    
+
+a,b = input().split()
+s=Solution()
+result = s.numWaterBottles(int(a),int(b))
+print(result)
