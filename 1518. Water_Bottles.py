@@ -12,6 +12,6 @@ class Solution:
     
 
 a,b = input().split()
-s=Solution()
-result = s.numWaterBottles(int(a),int(b))
+s1=Solution()
+result = s1.numWaterBottles(int(a),int(b))
 print(result)
